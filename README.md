@@ -1,5 +1,5 @@
 # WindowsBasicSetup
-Basic setup after Install windows
+Basic setup after fresh windows install
 
 A two-file automation script (setup.cmd + setup.ps1) for quick Windows configuration after a fresh install. Applies registry tweaks, installs software via Chocolatey, downloads Office 2024, and runs Windows Update in a loop until the system is fully up to date — rebooting and resuming automatically via Scheduled Task.
 Features:
