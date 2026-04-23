@@ -108,15 +108,17 @@ public class Wallpaper {
     # ---- PROGRAMMI ----
     Write-Host "Installazione programmi..." -ForegroundColor Cyan
     choco install googlechrome        --ignore-checksums -y
-    choco install firefox             -y
-    choco install vlc                 -y
-    choco install hwinfo              -y
+    choco install firefox             --ignore-checksums -y
+    choco install vlc                 --ignore-checksums -y
+    choco install hwinfo              --ignore-checksums -y
     choco install k-litecodecpackmega --ignore-checksums -y
-    choco install 7zip                -y
-    choco install everything          -y
-    choco install teracopy            -y
+    choco install 7zip                --ignore-checksums -y
+    choco install everything          --ignore-checksums -y
+    choco install teracopy            --ignore-checksums -y
     choco install adobereader         --ignore-checksums -y
     choco install javaruntime         --ignore-checksums -y
+    choco install notepadplusplus     --ignore-checksums -y
+    choco install rustdesk.install    --ignore-checksums -y
     Write-Host "Programmi installati." -ForegroundColor Green
 
     # ---- OFFICE 2024 ----
